@@ -4,20 +4,22 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+      <div class="alert alert-dismissible alert-warning">
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="alert"
+        ></button>
+        <h4 class="alert-heading">Warning!</h4>
+        <p class="mb-0">
+          Best check yo self, you're not looking too good. Nulla vitae elit
+          libero, a pharetra augue. Praesent commodo cursus magna,{" "}
+          <a href="#" class="alert-link">
+            vel scelerisque nisl consectetur et
+          </a>
+          .
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      </div>
     </div>
   );
 }
